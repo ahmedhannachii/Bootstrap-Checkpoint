@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href="#"><img src="res/logo.png" alt="logo" width="60"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="nav-link navbar-nav">
+            <a class="nav-item nav-link" href="index.html">Home </a>
+            <a class="nav-item nav-link " href="Courses.html">Courses</a>
+            <a class="nav-item nav-link active" href="Contact.html">Contact <span class="sr-only">(current)</span></a>
+          </div>
+        </div>
+      </nav>
+        <!-- <nav>
+                <div class="logo">
+                    <img src="res/logo.png" alt="logo" width="60">
+                </div>
+        
+                <ul class="navbar-links">
+                    <li class="nav-item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+        </nav> -->
+            <div class="header">
+                    <h1>Contact</h1>
+            </div>
+                <form class="contact-form">
+                <div class="input-groupe">
+                <label>Name</label> 
+                <input type="text" placeholder="Your Name" class="input-contact"> 
+            </div>
+            <div class="input-groupe">
+                <label>Track</label>
+                <select class="input-contact">
+                    <option>Web </option>
+                    <option>Game</option>
+                    <option>AI</option>
+                </select> 
+            </div>
+            <div class="input-groupe">
+                <label> Email address</label> 
+                <input type="email" placeholder="Name@example.com" class="input-contact">
+            </div>
+            <div class="input-groupe">
+                <label> Phone number</label> 
+                <input type="number" placeholder="Your Phone Number" class="input-contact">
+            </div>
+            <div class="input-groupe">  
+                <input type="button" value="submit" class="submit"> 
+            </div> 
+            </form>
+</body>
+    <script src="js/main.js"></script>
+</html>
